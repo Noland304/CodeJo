@@ -1,0 +1,49 @@
+html, body{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;    
+}
+header{
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    background-color:yellowgreen;
+}
+
+.div1{
+    display: flex;
+    background-color: indianred;
+    /*height: 50vh; */
+    padding: 10px;
+}
+.ProductItem{
+    background-color: #fff;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+}
+h1{
+    margin: 0px;
+}       
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+}
+.bg-green{
+    background-color: yellowgreen;
+}
+.bg-green{
+}
+footer{
+    padding: 10px;
+    margin: 0px;
+}
+footer{
+    background-color:hotpink;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* @media only screen and (max-width: 460px) {
+}*/

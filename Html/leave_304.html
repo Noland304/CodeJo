@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+</head>
+<body> 
+    <header>
+
+      <h1 align = 'center'> แบบฟอร์มลาออก </h1> 
+    </header>
+    
+    <main class="container m-5"> 
+      <div class="col-auto">
+        <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+        <select class="form-select" id="autoSizingSelect">
+          <option selected>คำนำหน้าชื่อ</option>
+          <option value="1">นาย</option>
+          <option value="2">นางสาว</option>
+          <option value="3">นาง</option>
+        </select>
+      </div>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="text" class="form-label">ชื่อ</label>
+            <input type="text" class="form-control" placeholder="first name">
+          </div>         
+            <div class="col-md-6">
+              <label for="text" class="form-label">นามสกุล</label>
+              <input type="text" class="form-control" placeholder="last name">
+            </div>
+            <div class="col-12">
+              <label for="number" class="form-label">รหัสนักศึกษา</label>
+              <input type="number" class="form-control" placeholder="650xxxxxxx" >
+            </div>
+            <div class="col-12">
+              <label for="number" class="form-label">เบอร์โทรศัพท์</label>
+              <input type="number" class="form-control" placeholder="06xxxxxxxx">
+            </div>
+
+            <div class="col-auto">
+              <select class="form-select">
+                <option selected>คณะ</option>
+                <option value="1">วิทยาศาสตร์</option>
+              </select>
+            </div>
+            <div class="col-auto">
+              <select class="form-select">
+                <option selected>สาขา</option>
+                <option value="1">วิทยาการคอมพิวเตอร์</option>
+              </select>
+            </div>
+            <br>
+
+          <div>
+          หลักสูตร ปริญญาตรี <br>
+         <input type="checkbox"> 4-5ปี
+         <br>
+         <input type="checkbox"> 4 ปีเทียบเข้าเรียน(2ปี)
+         <br>
+         <input type="checkbox"> ภาคปกติ
+         <br>
+         <input type="checkbox"> ภาคสมทบ
+        </div>
+
+        <br>
+        <div class="div1">
+        <label for="text" class="form-label">มีความประสงค์ลาออกเนื่องจาก</label>
+        <input type="text" class="form-control" placeholder="เหตุผล">
+            </div>
+
+            <div class="div2"
+            < align = 'center'> ขอแสดงความนับถือ 
+            <br>
+            <input type="text">
+            <br> 
+            นักศึกษา 
+            <br>
+            <br>
+            <br>
+          </div>
+          
+          
+          
+          <div class="allbox">
+            <div class="div3">ความเห็นอาจารย์<br>     
+              
+              <input type="checkbox"> ทราบ <br>
+              <input type="file"> <br>
+              <br>
+              <input type="date">
+              </div>
+          
+
+            <div class="div3">ความเห็นประธานอาจารย์ประจําหลักสูตร<br>     
+              
+              <input type="checkbox"> ทราบ <br>
+              <input type="file"><br>
+              <br>
+              <input type="date">
+              </div>
+
+
+            <div class="div3">ความเห็นคณบดี<br>     
+              
+              <input type="checkbox"> ทราบ <br>
+              <input type="file"><br>
+              <br>
+              <input type="date">
+              </div>
+            </div>
+      
+
+            
+            <div class="allbox01">
+              <div class="div3">ความเห็นผู้อำนวยการสํานักบริหารและพัฒนาวิชาการ<br>     
+                
+                <input type="checkbox"> ทราบ <br>
+                <input type="file"> <br>
+                <br>
+                <input type="date">
+                </div>
+            
+  
+              <div class="div3">ความเห็นอธิการบดี<br>     
+                
+                <input type="checkbox"> ทราบ <br>
+                <input type="file"><br>
+                <br>
+                <input type="date">
+                </div>
+  
+  
+              <div class="div3">ความเห็นหัวหน้ากลุ่มภารกิจทะเบียนเรียนประมวลผลฯ<br>     
+                
+                <input type="checkbox"> ทราบ <br>
+                <input type="file"><br>
+                <br>
+                <input type="date">
+                </div>
+              </div>
+
+              <div class="div5">สําหรับเจ้าหน้าที่บันทึกลงฐานข้อมูล<br>     
+                
+                <input type="checkbox"> ทราบ <br>
+                <input type="file"><br>
+                <br>
+                <input type="date">
+                </div>
+              </div>
+
+
+              <div class=" bottom_1 "> 
+            <button type="submit" class=" button_submit "required>ตกลง</button>
+        </div>
+              
+              
+
+
+          
+            
+          </form>
+    </main>
+    <footer> </footer>
+    
+</body>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
+
+<style>
+  .allbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    border: 1px solid black ;
+    padding: 30px;
+    text-align: center;
+  }
+  body{
+    background: rgb(145, 234, 123);
+  }
+  .allbox01{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    border: 1px solid black ;
+    padding: 30px;
+    text-align: center;
+  }
+  .div5{
+    border: 1px solid black ;
+    padding: 30px;
+    text-align: center;
+  }
+  .bottom_1{
+    text-align: center;
+}
+
+
+  
+</style>

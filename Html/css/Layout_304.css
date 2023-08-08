@@ -1,0 +1,116 @@
+body{
+    background:white;
+    margin: 0;
+}
+.div8{
+    background:red;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.div9{
+    background: red;
+    padding: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#div1,#div2,#div3,#div4,#div5,#div6{
+    background: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin: 40px;
+    width: 250px;
+    height: 250px;
+}
+
+@media (min-width: 576px) and (max-width:767px){
+
+    .div8{
+        justify-content: center;
+        align-items: center;     
+    }
+
+    }
+    .div123,.div456{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+        
+    .div9{
+        background: red;
+        padding: 15px;
+        font-size: 25px;
+        position: static ;
+        text-align: center;
+        width: 100%;
+
+    }
+    #div1,#div2,#div3,#div4,#div5,#div6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+@media (min-width: 768px) and (max-width:991px) {
+
+
+    .div9{
+        background: red;
+        padding: 15px;
+        font-size: 25px;
+        position: static ;
+        text-align: center;
+        width: 100%;
+
+    }
+    #div1,#div2,#div3,#div4,#div5,#div6{
+        display:flex;
+        justify-content: center;
+
+    }
+    .div123,.div456{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .div4{
+        display: flex;
+
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    #div1,#div2,#div3,#div4,#div5,#div6{
+        background: black;
+        text-align: center;
+        font-size: 20px;
+        padding: 30px;
+        margin: 40px;
+        width: 200px;
+        height: 200px;
+    }
+    .div9{
+        background: red;
+        padding: 15px;
+        font-size: 25px;
+        position: fixed ;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+    }
+    
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+}
+
+@media only screen and (min-width:1400px) {
+}
